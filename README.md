@@ -35,25 +35,25 @@ git clone https://github.com/your-repo/TaskManager.git
 cd TaskManager
 
 
-2️⃣ Build the project
+## 2️⃣ Build the project
 
 mvn clean install
 
 
-3️⃣ Start the application
+## 3️⃣ Start the application
 
 mvn spring-boot:run
 
 
-👉 Alternatively, run TaskManagerApplication.java directly in your IDE.
+# 👉 Alternatively, run TaskManagerApplication.java directly in your IDE.
 
-4️⃣ Check if it’s running
+## 4️⃣ Check if it’s running
 Open ➡ http://localhost:8080
 
-🔗 API Endpoints
+# 🔗 API Endpoints
 ➕ Create Task
 
-POST /tasks
+### POST /tasks
 
 {
   "title": "Learn Spring",
@@ -63,17 +63,17 @@ POST /tasks
   "status": "Pending"
 }
 
-📜 Get All Tasks
+### 📜 Get All Tasks
 
-GET /tasks
+### GET /tasks
 
 🔍 Get Task by ID
 
-GET /tasks/{id}
+### GET /tasks/{id}
 
 ✏️ Update Task
 
-PUT /tasks/{id}
+### PUT /tasks/{id}
 
 {
   "title": "Learn Spring Boot",
@@ -83,36 +83,36 @@ PUT /tasks/{id}
   "status": "Completed"
 }
 
-❌ Delete Task
+### ❌ Delete Task
 
 DELETE /tasks/{id}
 
-🛠 Testing with cURL
+### 🛠 Testing with cURL
 
-📌 Add a Task
+# 📌 Add a Task
 
 curl -X POST http://localhost:8080/tasks \
 -H "Content-Type: application/json" \
 -d '{"title":"Learn Spring","description":"Build REST API","deadline":"2025-08-20","priority":"High","status":"Pending"}'
 
 
-📌 Get All Tasks
+# 📌 Get All Tasks
 
 curl http://localhost:8080/tasks
 
 
-📌 Get Task by ID
+# 📌 Get Task by ID
 
 curl http://localhost:8080/tasks/1
 
 
-📌 Update a Task
+# 📌 Update a Task
 
 curl -X PUT http://localhost:8080/tasks/1 \
 -H "Content-Type: application/json" \
 -d '{"title":"Learn Spring Boot","description":"REST + Swagger","deadline":"2025-08-25","priority":"Medium","status":"Completed"}'
 
 
-📌 Delete a Task
+# 📌 Delete a Task
 
 curl -X DELETE http://localhost:8080/tasks/1
