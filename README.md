@@ -1,12 +1,12 @@
 # Arham Khan-160923733075
-Task Manager (Spring Boot)
+# Task Manager (Spring Boot)
 
 👩‍💻 Author: ARHAM AHMED KHAN – 160923733075
 
 A simple yet powerful REST API for managing daily tasks with attributes like Title, Description, Deadline, Priority, and Status.
 Ideal for learning Spring Boot, REST APIs, and CRUD operations.
 
-✅ Tech Requirements
+# ✅ Tech Requirements
 
 ☕ Java 17+ (Project is configured for Java 22 in pom.xml)
 
@@ -16,7 +16,7 @@ Ideal for learning Spring Boot, REST APIs, and CRUD operations.
 
 🧪 (Optional): Postman / cURL for testing
 
-📂 Project Directory
+# 📂 Project Directory
 TaskManager/
 │── pom.xml
 └── src/
@@ -27,9 +27,9 @@ TaskManager/
                 ├── model/Task.java
                 └── service/TaskService.java
 
-🏃 How to Run
+# 🏃 How to Run
 
-1️⃣ Clone repository
+## 1️⃣ Clone repository
 
 git clone https://github.com/your-repo/TaskManager.git
 cd TaskManager
