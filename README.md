@@ -89,30 +89,30 @@ DELETE /tasks/{id}
 
 ### 🛠 Testing with cURL
 
-# 📌 Add a Task
+## 📌 Add a Task
 
 curl -X POST http://localhost:8080/tasks \
 -H "Content-Type: application/json" \
 -d '{"title":"Learn Spring","description":"Build REST API","deadline":"2025-08-20","priority":"High","status":"Pending"}'
 
 
-# 📌 Get All Tasks
+## 📌 Get All Tasks
 
 curl http://localhost:8080/tasks
 
 
-# 📌 Get Task by ID
+## 📌 Get Task by ID
 
 curl http://localhost:8080/tasks/1
 
 
-# 📌 Update a Task
+## 📌 Update a Task
 
 curl -X PUT http://localhost:8080/tasks/1 \
 -H "Content-Type: application/json" \
 -d '{"title":"Learn Spring Boot","description":"REST + Swagger","deadline":"2025-08-25","priority":"Medium","status":"Completed"}'
 
 
-# 📌 Delete a Task
+## 📌 Delete a Task
 
 curl -X DELETE http://localhost:8080/tasks/1
